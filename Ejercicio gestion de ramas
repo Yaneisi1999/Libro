@@ -7,7 +7,7 @@ echo capitulos/capitulo4.txt
   En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.
 git add .
 git commit -m "Añadido capítulo 4."
-git log --graph --all --oneline
+git log --oneline
 
 Ejercicio 3:
 git checkout bibliografia
@@ -15,7 +15,7 @@ echo bibliografia.txt
   Chacon, S. and Straub, B. Pro Git. Apress.
 git add .
 git commit -m "Añadida primera referencia bibliográfica."
-git log --graph --all --oneline
+git log --oneline
 
 Ejercicio 4:
 git checkout master
